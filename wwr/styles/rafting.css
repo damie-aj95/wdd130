@@ -1,0 +1,69 @@
+/* CSS Variables */
+:root {
+    --primary-color: #1a5490;
+    --secondary-color: #2a9df4;
+    --accent1-color: #0d3b66;
+    --accent2-color: #f4d35e;
+    --heading-font: 'Georgia', serif;
+    --body-font: 'Arial', sans-serif;
+}
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body Styles */
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+/* Page Width and Centering */
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+/* Heading Styles */
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+/* Basic Element Spacing */
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Social Media Links */
+.socialmedia a {
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Hero H1 Overlay */
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+.hero article img {
+    float: right;
+    width: 125px;
+}
