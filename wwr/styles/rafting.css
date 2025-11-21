@@ -52,8 +52,9 @@ nav, p, section, article {
     width: 100%;
     height: auto;
 }
+
 /* Hero H1 Overlay */
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -61,9 +62,26 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: #fff; /* white text - make sure there is enough contrast with the background-color */
 }
+
+/* Hero Article */
+.hero article {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    border-radius: 10px;
+    border: 3px solid var(--secondary-color);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
 .hero article img {
     float: right;
     width: 125px;
+    margin: 0 0 10px 15px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
