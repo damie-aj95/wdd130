@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poll Form</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 <body>
     
@@ -13,10 +14,37 @@
 
     <main>
         <form>
+            <fieldset> 
+                <legend>Contact Information</legend>
+            <!-- Full Name -->
             <label for="fullname">Full Name:</label>
             <input type="text" id="fullname" name="fullname" required>
+            <!-- Email -->
             <label for="useremail">Email:</label> 
             <input type="useremail" id="useremail" name="useremail" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+            <!-- Question 1: Favorite Browser -->
+             <label for="browser">whats your favorite internet browser?</label>
+            <select name="browser" id="browser">
+                <option value="chrome">chrome</option>
+                <option value="firefox">Firefox</option>
+                <option value="edge">Edge</option>
+                <option value="brave">Brave</option>
+                <option value="other">Other</option>
+            </fieldset>
+            </select>
+
+            <!-- Question 2: Household Pet -->
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">list the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="stillwater florida, Amsterdam Netherland, Tibuktu mali"></textarea>
+
+             <button type="submit">Submit Poll</button>
+
         </form>
     </main>
 </body>
