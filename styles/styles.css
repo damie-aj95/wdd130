@@ -21,7 +21,6 @@
 }
 nav a {
     display: block;
-    color: var(--accent-color);
     text-decoration: none;
     padding: 5px 10px;
     background-color: var(--footer-bg);
@@ -58,6 +57,7 @@ h1  {
 aside {
     max-width: 30rem;
     position: relative;
+    grid-row: 1;
 }
 
 aside img {
