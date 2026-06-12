@@ -327,3 +327,111 @@ footer {
     font-weight: bold;
     color: var(--accent1-color);
 }
+
+/* =========================
+   NEWSLETTER SECTION
+========================= */
+.newsletter-section {
+    border: 2px solid var(--secondary-color);
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    padding: 24px 16px;
+    text-align: center;
+}
+
+.newsletter-section h2 {
+    margin-bottom: 8px;
+}
+
+.newsletter-section p {
+    margin-bottom: 16px;
+}
+
+.newsletter-form {
+    max-width: 480px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* =========================
+   CALL TO ACTION SECTION
+========================= */
+.cta-section {
+    background-color: var(--accent1-color);
+    color: #fff;
+    text-align: center;
+    padding: 32px 16px;
+    margin-top: 20px;
+}
+
+.cta-section h2 {
+    color: var(--accent2-color);
+    margin-bottom: 10px;
+}
+
+.cta-section p {
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: var(--body-font);
+    transition: background-color 0.2s;
+}
+
+.cta-btn:hover {
+    background-color: var(--primary-color);
+}
+
+/* =========================
+   OFFERINGS GRID (HOME)
+========================= */
+.offerings-section {
+    border: 2px solid var(--secondary-color);
+    background-color: #f5f5f5;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+.offerings-section h2 {
+    text-align: center;
+    padding: 16px;
+}
+
+.offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 8px 16px;
+}
+
+.offering-card {
+    text-align: center;
+}
+
+.offering-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    border-radius: 4px;
+}
+
+.offering-card h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin: 10px 0 6px;
+}
+
+.offering-card p {
+    font-size: 0.9rem;
+    margin: 0;
+    padding: 0 4px;
+}
